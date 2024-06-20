@@ -1,0 +1,217 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+.nombre {
+    text-align: center;
+    background: linear-gradient(45deg, #ff6b6b, #f8e473, #6bcbff);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: 'Arial Black', sans-serif;
+    font-size: 4em;
+    font-weight: bold;
+    padding: 20px;
+    border: 2px solid #4d2c0c;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.monolito {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+    background-color: #f5d5b5;
+    border: 3px solid #4d2c0c;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cabeza {
+    width: 60%;
+    height: 60px;
+    background-color: #f5d5b5;
+    border: 3px solid #4d2c0c;
+    border-radius: 5px 5px 5px 5px;
+    position: relative;
+    margin-bottom: -4px;
+    z-index: 2;
+}
+.gorro{
+    width: 70%;
+    height: 20px;
+    background-color: #f5d5b5;
+    border: 3px solid #4d2c0c;
+    border-radius: 10px 10px 5px 5px;
+    position: relative;
+    margin-bottom: -5px;
+    z-index: 5;
+}
+.linea{
+    width: 100%;
+    height: 3px;
+    background-color: #f5d5b5;
+    border: 3px solid #4d2c0c;
+    position: relative;
+    margin-left: -2px;
+}
+
+.nariz{
+    width: 10%;
+    height: 25px;
+    left: 42%;
+    background-color: #f5d5b5;
+    border: 3px solid #4d2c0c;
+    position: relative;
+    top: -3px;
+}
+
+.ojos {
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 20px;
+}
+
+.ojo {
+    width: 12px;
+    height: 7px;
+    background-color: #f5d5b5;
+    border: 3px solid #4d2c0c;
+    border-radius: 3px;
+}
+
+.boca {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20px;
+    height: 7px;
+    background-color: #f5d5b5;
+    border: 3px solid #4d2c0c;
+    border-radius: 3px;
+}
+
+.cuerpo {
+    width: 90%;
+    height: 100px;
+    border-radius: 10px 10px 0 0;
+    background-color: #f5d5b5;
+    border: 3px solid #4d2c0c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: -2px;
+}
+
+.brazos {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 3px;
+}
+
+.brazo {
+    width: 20px;
+    height: 80px;
+    background-color: #f5d5b5;
+    border: 3px solid #4d2c0c;
+}
+
+.botellas {
+    display: flex;
+    justify-content: space-between;
+    width: 50px;
+}
+
+.botella {
+    width: 20px;
+    height: 40px;
+    background-color: #f5d5b5;
+    border: 3px solid #4d2c0c;
+    border-radius: 5px;
+}
+
+.botella-izquierda {
+    margin-right: 5px;
+}
+
+.botella-derecha {
+    margin-left: 5px;
+}
+.cinturon{
+        width: 97%;
+        height: 20px;
+        background-color: #f5d5b5;
+        border: 3px solid #4d2c0c;
+        border-radius: 5px 5px 5px 5px;
+        position: relative;
+        margin-bottom: -5px;
+        z-index: 5;
+}
+.piernas {
+    width: 75%;
+    height: 40px;
+    background-color: #f5d5b5;
+    border: 3px solid #4d2c0c;
+    border-radius: 0 0 5px 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pierna {
+    width: 70px;
+    height: 25px;
+    background-color: #f5d5b5;
+    border: 3px solid #4d2c0c;
+    border-radius: 0 0 10pxpx 10px;
+    z-index: 4;
+}
+
+.lineapies{
+    width: 1%;
+    height: 120px;
+    background-color: #4d2c0c;
+    border: 3px solid #4d2c0c;
+    border-radius: 5px 5px 5px 5px;
+    position: relative;
+    margin-top: -123px;
+    z-index: 5;
+}
+
+.pies{
+    width: 85%;
+    height: 20px;
+    background-color: #f5d5b5;
+    border: 3px solid #4d2c0c;
+    border-radius: 5px 5px 5px 5px;
+    position: relative;
+    margin-top: -5px;
+    z-index: 5;
+}
+.pedestal{
+    width: 100%;
+    height: 20px;
+    background-color: #f5d5b5;
+    border: 3px solid #4d2c0c;
+    border-radius: 5px 5px 5px 5px;
+    position: relative;
+    margin-top: -5px;
+    z-index: 6;
+}
